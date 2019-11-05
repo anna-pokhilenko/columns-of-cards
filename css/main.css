@@ -1,0 +1,53 @@
+html {
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #f2f2f2;
+
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+img {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+}
+
+cite {
+  font-size: .875rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+p {
+  font-size: 1rem;
+}
+
+a {
+  display: flex;
+  background-color: #333;
+  color: #f2f2f2;
+  font-size: 1rem;
+}
+
+div {
+  display: flex;
+}
+
+.one {
+  padding: 1.5rem;
+  background-color: #e2e2e2;
+}
